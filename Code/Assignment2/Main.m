@@ -139,7 +139,7 @@ T=T.T;
 plot3(squeeze(T(1,4,:)),squeeze(T(2,4,:)),squeeze(T(3,4,:)));%输出末端轨迹
 hold on
 set(gcf,'color','w');
-% bot.plot(q_all,'scale',0.8,'jointcolor',[1,0.4,0],'view',[12,15]);%动画演示
+bot.plot(q_all,'scale',0.8,'jointcolor',[1,0.4,0],'view',[12,15]);%动画演示
 
 %% 5.轨迹规划
 path = q_all(1:size(q_all,1)/2,:); % 此处生成转半圈的轨迹
